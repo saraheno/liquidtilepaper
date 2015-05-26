@@ -1,2 +1,2 @@
-# liquidtilepaper
-for the paper summer 2015 on liquid scintillator tiles
+# fluoresencepaper
+for the summer 2015 paper on fluoresence in plastic scintillator
