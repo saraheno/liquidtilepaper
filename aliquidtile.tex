@@ -53,6 +53,7 @@
 \author[umd]{Jeff Calderon}
 \author[umd]{Sarah C. Eno}
 \author[baylor]{Kenichi Hatakeyama}
+\author[fnal]{James Hirschauer}
 \author[fnal]{Kevin Pedro}
 \author[umd]{Geng Yuan Jeng}
 \author[umd]{Joshua Samuel}
@@ -98,12 +99,13 @@ Our tile is based on EJ-309 scintillator, from Eljen Technology, and is based on
 
 The design of tile to hold the liquid needs to consider light collection efficiency, light collection uniformity, and cost.  The container should not leak and there should not be interactions between the container and its contents that degrade the light output over time.  Figure ~\ref{fig:tiledesign} shows the mechanical construction.  The case is aluminum.  Two transparent support tubes with outer diameter of 2mm run through the liquid and can hold either wavelength shifting fiber or liquid wavelength shifter.  The support tube is sealed to the case with a viton fluoroelastomer o-ring.  The thickness of the top and bottom Aluminum plates is 0.1 mm.  The inner surface can either be polished to increase reflectivity (``mirroring'') or not.
 
-Several variations on this design were constructed.  For the default design, the thickness of the liquid is 4 mm and the support tubes were quartz with an inner diameter of 1.3 mm.  Sapphire tubes were also tested.
+Several variations on this design were constructed.  For the default design, the thickness of the liquid is 4 mm and the support tubes were quartz with an inner diameter of 1.3 mm and were used with Kuraray Y-11 fiber (doping of 200 ppm), double clad.  Quartz tubes with an outer diameter of xx and an inner diameter of yy were also used with liquid wave length shifter from Eljen.
+Sapphire tubes were also tested with both liquid and plastic wavelength shifter.
 
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=0.49\textwidth]{mechanicaldesign.pdf}
+\includegraphics[width=0.8\textwidth]{mechanicaldesign.pdf}
 \caption{
 Mechanical design of a liquid scintillator tile.  Units are mm.
 }
@@ -112,12 +114,13 @@ Mechanical design of a liquid scintillator tile.  Units are mm.
 \end{figure}
 
 
-\section{Tile Simulation}
-We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  
 
 \section{Test beam results}
 
+The light yield and uniformity of the tiles was measured in the H2 test beam facility at CERN using 120 GeV muons.
+
 \section{Light yield dependence on tile parameters and comparison with simulation}
+We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  
 
 \section{Radiation hardness tests}
 

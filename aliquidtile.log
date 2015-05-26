@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 13:40
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 13:55
 entering extended mode
 **aliquidtile.tex
 (./aliquidtile.tex
@@ -220,27 +220,26 @@ LaTeX Info: Redefining \pageref on input line 41.
 \openout4 = `aliquidtile.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 79.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 79.
+(Font)              <5> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 86.
+(Font)              <8> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 86.
+(Font)              <6> on input line 87.
 
 
 Package natbib Warning: Citation `Albrow20022524' on page 1 undefined on input 
-line 91.
+line 92.
 
 [1
 
 
 {/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<mechanicaldesign.pdf, id=103, 794.97pt x 614.295pt>
+<mechanicaldesign.pdf, id=83, 794.97pt x 614.295pt>
 File: mechanicaldesign.pdf Graphic file (type pdf)
-
-<use mechanicaldesign.pdf> [2] (./aliquidtile.bbl [3 <./mechanicaldesign.pdf, p
-age is rotated 90 degrees>]
+ <use mechanicaldesign.pdf>
+[2] [3 <./mechanicaldesign.pdf, page is rotated 90 degrees>] (./aliquidtile.bbl
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no Â in font cmr10!
@@ -251,7 +250,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--26
 science / article / pii /
  []
 
-
+[4]
 Underfull \hbox (badness 1571) in paragraph at lines 49--59
 \OT1/cmr/m/n/10 143.  []http://dx.doi.org/http://dx.doi.org/10.1016/0168-583X(9
 4)00435-8[]
@@ -263,7 +262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--59
 science / article / pii /
  []
 
-[4]
+
 Underfull \hbox (badness 4120) in paragraph at lines 67--74
 \OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 http : / / scitation . aip . org / cont
 ent / aip / proceeding / aipcp / 10 .
@@ -284,17 +283,17 @@ Package natbib Warning: There were undefined citations.
 
 [5] (./aliquidtile.aux) ) 
 Here is how much of TeX's memory you used:
- 3242 strings out of 94500
- 41993 string characters out of 1176767
+ 3240 strings out of 94500
+ 41973 string characters out of 1176767
  97453 words of memory out of 1000000
- 6370 multiletter control sequences out of 10000+50000
+ 6369 multiletter control sequences out of 10000+50000
  8442 words of font info for 30 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
  32i,7n,36p,784b,275s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 172 PDF objects out of 300000
- 32 named destinations out of 131072
- 86 words of extra memory for PDF output out of 65536
+ 168 PDF objects out of 300000
+ 31 named destinations out of 131072
+ 78 words of extra memory for PDF output out of 65536
 </usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></
 usr/share/texmf/fonts/type1/bluesky/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/
 bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb></usr/sh
@@ -304,4 +303,4 @@ y/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share
 m/cmti7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texm
 f/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
 0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb>
-Output written on aliquidtile.pdf (5 pages, 190269 bytes).
+Output written on aliquidtile.pdf (5 pages, 190130 bytes).
