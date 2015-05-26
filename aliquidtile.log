@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 13:27
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 13:40
 entering extended mode
 **aliquidtile.tex
 (./aliquidtile.tex
@@ -239,7 +239,8 @@ line 91.
 <mechanicaldesign.pdf, id=103, 794.97pt x 614.295pt>
 File: mechanicaldesign.pdf Graphic file (type pdf)
 
-<use mechanicaldesign.pdf> [2] (./aliquidtile.bbl
+<use mechanicaldesign.pdf> [2] (./aliquidtile.bbl [3 <./mechanicaldesign.pdf, p
+age is rotated 90 degrees>]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no Â in font cmr10!
@@ -250,7 +251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--26
 science / article / pii /
  []
 
-[3 <./mechanicaldesign.pdf, page is rotated 90 degrees>]
+
 Underfull \hbox (badness 1571) in paragraph at lines 49--59
 \OT1/cmr/m/n/10 143.  []http://dx.doi.org/http://dx.doi.org/10.1016/0168-583X(9
 4)00435-8[]
@@ -268,22 +269,31 @@ Underfull \hbox (badness 4120) in paragraph at lines 67--74
 ent / aip / proceeding / aipcp / 10 .
  []
 
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Underfull \hbox (badness 3019) in paragraph at lines 76--82
+\OT1/cmr/m/n/10 e-ters, De-tec-tors and As-so-ci-ated Equip-ment 506 (3) (2003)
+ 250 --
+ []
+
 )
 
 Package natbib Warning: There were undefined citations.
 
 [5] (./aliquidtile.aux) ) 
 Here is how much of TeX's memory you used:
- 3240 strings out of 94500
- 41950 string characters out of 1176767
- 97438 words of memory out of 1000000
- 6369 multiletter control sequences out of 10000+50000
+ 3242 strings out of 94500
+ 41993 string characters out of 1176767
+ 97453 words of memory out of 1000000
+ 6370 multiletter control sequences out of 10000+50000
  8442 words of font info for 30 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
  32i,7n,36p,784b,275s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 169 PDF objects out of 300000
- 31 named destinations out of 131072
+ 172 PDF objects out of 300000
+ 32 named destinations out of 131072
  86 words of extra memory for PDF output out of 65536
 </usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></
 usr/share/texmf/fonts/type1/bluesky/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/
@@ -294,4 +304,4 @@ y/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share
 m/cmti7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texm
 f/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
 0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb>
-Output written on aliquidtile.pdf (5 pages, 188797 bytes).
+Output written on aliquidtile.pdf (5 pages, 190269 bytes).

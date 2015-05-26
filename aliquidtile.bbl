@@ -72,4 +72,12 @@ V.~Hagopian, I.~Daly,
 \newline\urlprefix\url{http://scitation.aip.org/content/aip/proceeding/aipcp/1%
 0.1063/1.56958}
 
+\bibitem{Agostinelli2003250}
+S.~Agostinelli, et~al., Geant4—a simulation toolkit, Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment 506~(3) (2003) 250 -- 303.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0168-9002(03)01368-8}
+  {\path{doi:http://dx.doi.org/10.1016/S0168-9002(03)01368-8}}.
+
 \end{thebibliography}
