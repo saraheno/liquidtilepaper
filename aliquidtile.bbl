@@ -63,4 +63,13 @@ A.~Bross, A.~Pla-Dalmau, Radiation damage of plastic scintillators, Nuclear
 \newblock \href {http://dx.doi.org/10.1109/23.173178}
   {\path{doi:10.1109/23.173178}}.
 
+\bibitem{vasken}
+V.~Hagopian, I.~Daly,
+  \href{http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.56958}%
+{Radiation damage of fibers}, AIP Conference Proceedings 450~(1) (1998) 53--61.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1063/1.56958}
+  {\path{doi:http://dx.doi.org/10.1063/1.56958}}.
+\newline\urlprefix\url{http://scitation.aip.org/content/aip/proceeding/aipcp/1%
+0.1063/1.56958}
+
 \end{thebibliography}

@@ -87,7 +87,8 @@ organic scintillator\sep liquid scintillator\sep \sep radiation hardness \sep ca
 \linenumbers
 
 \section{Introduction}
-Sampling calorimeters using plastic scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Albrow20022524}, are popular due to their excellent performance at a reasonable cost.  Plastic scintillator is available commercially from companies like Kuraray, St. Gobain, and Eljen.  When irradiated, however, the performance of plastic scintillator deteriorates; light self-absorption (yellowing) increases and light output decreases.  The resulting damage has been studied for most common plastics 
+Sampling calorimeters using plastic scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Albrow20022524}, are popular due to their excellent performance at a reasonable cost.  Plastic scintillator is available commercially from companies like Kuraray, St. Gobain, and Eljen.  When irradiated, however, the performance of plastic scintillator deteriorates; light self-absorption (yellowing) increases and light output decreases.  The resulting damage has been studied for most common plastics\cite{34504}, \cite{Wick1991472}, \cite{289295},
+\cite{173180},\cite{467829},\cite{Wulkop1995141},\cite{173178}
 
 
 \section{Tile design}
