@@ -49,6 +49,7 @@
 \cortext[mycorrespondingauthor]{Corresponding author}
 \ead{abelloni@umd.edu}
 \author[umd]{Mahnegar Amouzegar}
+\author[umd]{Jeff Calderon}
 \author[umd]{Sarah C. Eno}
 \author[baylor]{Kenichi Hatakeyama}
 \author[fnal]{Kevin Pedro}
@@ -69,7 +70,7 @@
 Room 4315, Department of Physics, Natural Science Building (E6-2), KAIST,
 291 Daehak-ro, Yuseong-gu, Daejeon 305-701, South Korea}
 \address[elmer]{Elmer Sharp Engineering, 7007 Leesville Blvd. Springfield, VA 22151}
-\address[fnal]{Fermi National Accelerator Laboratory, Batavia, USA}
+\address[fnal]{Fermi National Accelerator Laboratory, Batavia, IL, USA}
 \address[baylor]{Baylor University, Waco, Texas, USA}
 
 \begin{abstract}
@@ -86,7 +87,8 @@ organic scintillator\sep liquid scintillator\sep \sep radiation hardness \sep ca
 \linenumbers
 
 \section{Introduction}
-Sampling calorimeters using scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Albrow20022524}, are popular due to their excellent performance at a reasonable cost.
+Sampling calorimeters using plastic scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Albrow20022524}, are popular due to their excellent performance at a reasonable cost.  Plastic scintillator is available commercially from companies like Kuraray, St. Gobain, and Eljen.  When irradiated, however, the performance of plastic scintillator deteriorates; light self-absorption (yellowing) increases and light output decreases.  The resulting damage has been studied for most common plastics 
+
 
 \section{Tile design}
 
@@ -105,6 +107,6 @@ This work was supported in part by U.S. Department of Energy Grant YYYYY.
 
 \section*{References}
 
-\bibliography{afluorescence}
+\bibliography{aliquidtile}
 
 \end{document}

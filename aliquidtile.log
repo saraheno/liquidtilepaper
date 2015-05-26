@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 09:19
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 09:49
 entering extended mode
 **aliquidtile.tex
 (./aliquidtile.tex
@@ -220,49 +220,68 @@ LaTeX Info: Redefining \pageref on input line 40.
 \openout4 = `aliquidtile.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
+(Font)              <5> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 84.
+(Font)              <8> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 84.
+(Font)              <6> on input line 85.
 
 
 Package natbib Warning: Citation `Albrow20022524' on page 1 undefined on input 
-line 89.
+line 90.
 
 [1
 
 
 {/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./aliquidtile.bbl
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ¶ in font cmr10!
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+Underfull \hbox (badness 10000) in paragraph at lines 15--26
+\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 http : / / www . sciencedirect . com / 
+science / article / pii /
+ []
+
+[2]
+Underfull \hbox (badness 1571) in paragraph at lines 49--59
+\OT1/cmr/m/n/10 143.  []http://dx.doi.org/http://dx.doi.org/10.1016/0168-583X(9
+4)00435-8[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--59
+\OT1/cmr/m/n/10 URL []$\OT1/cmtt/m/n/10 http : / / www . sciencedirect . com / 
+science / article / pii /
+ []
 
 )
 
 Package natbib Warning: There were undefined citations.
 
-[2] (./aliquidtile.aux) ) 
+[3] (./aliquidtile.aux) ) 
 Here is how much of TeX's memory you used:
- 3208 strings out of 94500
- 41558 string characters out of 1176767
- 96284 words of memory out of 1000000
- 6352 multiletter control sequences out of 10000+50000
- 8274 words of font info for 29 fonts, out of 500000 for 2000
+ 3225 strings out of 94500
+ 41740 string characters out of 1176767
+ 97389 words of memory out of 1000000
+ 6360 multiletter control sequences out of 10000+50000
+ 8442 words of font info for 30 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 32i,7n,36p,240b,229s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 32i,7n,36p,613b,274s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 87 PDF objects out of 300000
- 18 named destinations out of 131072
+ 137 PDF objects out of 300000
+ 26 named destinations out of 131072
  73 words of extra memory for PDF output out of 65536
-</usr/share/texmf/fonts/type1/bluesky/cm/cmss8.pfb></u
-sr/share/texmf/fonts/type1/bluesky/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/b
-luesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb></usr/sha
-re/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesk
-y/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti8.pfb></usr/share/
-texmf/fonts/type1/bluesky/cm/cmti7.pfb></usr/share/texmf/fonts/type1/bluesky/cm
-/cmsy7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/
-fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12
-.pfb>
-Output written on aliquidtile.pdf (2 pages, 80605 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmtt8.pfb></usr/share/texmf/fonts/type1/
+bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6.pfb></usr/sh
+are/texmf/fonts/type1/bluesky/cm/cmss8.pfb></usr/share/texmf/fonts/type1/bluesk
+y/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmti8.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmti7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texm
+f/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
+0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb>
+Output written on aliquidtile.pdf (3 pages, 104125 bytes).
