@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 10:40
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2013.6.3)  26 MAY 2015 10:53
 entering extended mode
 **aliquidtile.tex
 (./aliquidtile.tex
@@ -236,10 +236,6 @@ line 90.
 
 
 {/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `fig:tiledesign' on page 2 undefined on input 
-line 98.
-
 <mechanicaldesign.pdf, id=103, 614.295pt x 794.97pt>
 File: mechanicaldesign.pdf Graphic file (type pdf)
 
@@ -278,15 +274,15 @@ Package natbib Warning: There were undefined citations.
 
 [5] (./aliquidtile.aux) ) 
 Here is how much of TeX's memory you used:
- 3241 strings out of 94500
- 41966 string characters out of 1176767
- 98438 words of memory out of 1000000
- 6370 multiletter control sequences out of 10000+50000
+ 3240 strings out of 94500
+ 41950 string characters out of 1176767
+ 97438 words of memory out of 1000000
+ 6369 multiletter control sequences out of 10000+50000
  8442 words of font info for 30 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 32i,7n,36p,612b,276s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 32i,7n,36p,612b,275s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 176 PDF objects out of 300000
+ 177 PDF objects out of 300000
  31 named destinations out of 131072
  86 words of extra memory for PDF output out of 65536
 </usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></
@@ -298,4 +294,4 @@ y/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share
 m/cmti7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb></usr/share/texm
 f/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr1
 0.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb>
-Output written on aliquidtile.pdf (5 pages, 186531 bytes).
+Output written on aliquidtile.pdf (5 pages, 187038 bytes).
