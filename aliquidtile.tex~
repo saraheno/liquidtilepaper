@@ -94,15 +94,14 @@ organic scintillator\sep liquid scintillator\sep \sep radiation hardness \sep ca
 \linenumbers
 
 \section{Introduction}
-Sampling calorimeters using plastic scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Aota1995557}
-and the CMS barrel\cite{CMSHB} and endcap hadron calorimeters\cite{HCALTDR1997}, are popular due to their low cost and ease of construction.  Plastic scintillator is available commercially from companies like St. Gobain and Eljen.  When irradiated, however, the performance of plastic scintillator and wave length shifting fibers deteriorate; light self-absorption (yellowing) increases and light output decreases.  The resulting loss of light output has been studied
-\cite{vasken}\cite{ByonWagner1993263}.
+Sampling calorimeters using plastic scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Albrow20022524}, are popular due to their low cost and ease of construction.  Plastic scintillator is available commercially from companies like St. Gobain and Eljen.  When irradiated, however, the performance of plastic scintillator and wave length shifting fibers deteriorate; light self-absorption (yellowing) increases and light output decreases.  The resulting damage has been studied for most common plastics\cite{34504}, \cite{Wick1991472}, \cite{289295},
+\cite{173180},\cite{467829},\cite{Wulkop1995141},\cite{173178},\cite{vasken}. 
 Generally, the light output decreases exponentially with dose, with an decay constant on order of a few Mrad.  Future high energy and nuclear experiments, however, may have to operate in environments that will deliver doses of tens of Mrad.  In this paper, we present the design and optimization of a liquid scintillator tile, based on EJ-309 liquid scintillator, that can operate in thie kind of environment.
 
 
 \section{Tile design}
 
-Our tile is based on EJ-309 scintillator, from Eljen Technology, which uses naphthalene as the substrate with wavelength shifting additives.  It has a light output that is 75\% of anthracene, a wavelength of maximum emisison of 424 nm, a refractive index of 1.57 and a flash point of $\rm{144^o}$C.  The low flash point is important for its suitability for a collider environment.
+Our tile is based on EJ-309 scintillator, from Eljen Technology, which is based on naphthalene with wavelength shifting additives.  It has a light output that is 75\% of anthracene, a wavelength of maximum emisison of 424 nm, a refractive index of 1.57 and a flash point of $\rm{144^o}$C.  The low flash point is important for its suitability for a collider environment.
 
 The design of tile to hold the liquid needs to consider light collection efficiency, light collection uniformity, and cost.  The container should not leak and there should not be interactions between the container and its contents that degrade the light output over time or compromise the integrity
 of the container.

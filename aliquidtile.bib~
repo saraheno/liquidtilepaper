@@ -744,7 +744,7 @@ url = "http://www.sciencedirect.com/science/article/pii/0168900295900055",
 author = "S. Aota and T. Asakawa and K. Hara and E. Hayashi and S. Kim and K. Kondo and T. Kuwabara and S. Miyashita and H. Nakada and I. Nakano and Y. Seiya and K. Takikawa and H. Toyoda and T. Uchida and K. Yasuoka and M. Mishina and J. Iwai and M. Albrow and J. Freeman and P.J. Limon"
 }
 
-@article{CMSHB,
+@article{CMSHB
 year={2008},
 issn={1434-6044},
 journal={The European Physical Journal C},
@@ -757,53 +757,4 @@ publisher={Springer-Verlag},
 author={Abdullin, S. and Abramov, V. and Acharya, B. and Adams, M. and Akchurin, N. and Akgun, U. and Anderson, E.W. and Antchev, G. and Ayan, S. and Aydin, S. and Baarmand, M. and Baden, D. and Banerjee, Sud. and Banerjee, Sun. and Bard, R. and Barnes, V. and Bawa, H. and Baiatian, G. and Bencze, G. and Beri, S. and Bhatnagar, V. and Bodek, A. and Budd, H. and Burchesky, K. and Camporesi, T. and Cankoçak, K. and Carrell, K. and Chendvankar, S. and Chung, Y. and Cremaldi, L. and Cushman, P. and Damgov, J. and de Barbaro, P. and Demianov, A. and de Visser, T. and Dimitrov, L. and Dugad, S. and Dumanoglu, I. and Duru, F. and Elias, J. and Elvira, D. and Emeliantchik, I. and Eno, S. and Ershov, A. and Eskut, E. and Fisher, W. and Freeman, J. and Gavrilov, V. and Genchev, V. and Gershtein, Y. and Golutvin, I. and Goncharov, P. and Grassi, T. and Green, D. and Gribushin, A. and Grinev, B. and Gülmez, E. and Gümüş, K. and Haelen, T. and Hagopian, S. and Hagopian, V. and Hauptman, J. and Hazen, E. and Heering, A. and Imboden, M. and Isiksal, E. and Jarvis, C. and Johnson, K. and Kaftanov, V. and Kalagin, V. and Karmgard, D. and Kalmani, S. and Katta, S. and Kaur, M. and Kaya, M. and Kayis-Topaksu, A. and Kellogg, R. and Khmelnikov, A. and Kisselevich, I. and Kodolova, O. and Kohli, J. and Kolossov, V. and Korablev, A. and Korneev, Y. and Kosarev, I. and Krinitsyn, A. and Krokhotin, A. and Kryshkin, V. and Kuleshov, S. and Kumar, A. and Kunori, S. and Polatoz, A. and Laasanen, A. and Lawlor, C. and Lazic, D. and Levchuk, L. and Litvintsev, D. and Litov, L. and Los, S. and Lubinsky, V. and Lukanin, V. and Machado, E. and Mans, J. and Massolov, V. and Mazumdar, K. and Merlo, J.P. and Mescheryakov, G. and Mestvirishvili, A. and Miller, M. and Mondal, N. and Nagaraj, P. and Norbeck, E. and O’Dell, V. and Olson, J. and Onel, Y. and Onengut, G. and Ozdes-Koca, N. and Ozkorucuklu, S. and Ozok, F. and Paktinat, S. and Patil, M. and Petrushanko, S. and Pikalov, V. and Piperov, S. and Podrasky, V. and Pompos, A. and Posch, C. and Qian, W. and Ralich, R. and Reddy, L. and Reidy, J. and Ruchti, R. and Rohlf, J. and Ronzhin, A. and Ryazanov, A. and Sanders, D.A. and Sanzeni, C. and Sarycheva, L. and Satyanarayana, B. and Schmidt, I. and Senchishin, V. and Sergeyev, S. and Serin-Zeyrek, M. and Sever, R. and Singh, J. and Sirunyan, A. and Skuja, A. and Sherwood, B. and Shumeiko, N. and Smirnov, V. and Sorokin, P. and Stefanovich, R. and Stolin, V. and Sudhakar, K. and Suzuki, I. and Talov, V. and Thomas, R. and Tully, C. and Turchanovich, L. and Ulyanov, A. and Vankov, I. and Vardanyan, I. and Verma, P. and Vesztergombi, G. and Vidal, R. and Vlassov, E. and Vodopiyanov, I. and Volkov, A. and Volodko, A. and Winn, D. and Whitmore, J. and Wu, S.X. and Zalan, P. and Zarubin, A. and Zeyrek, M.},
 pages={159-171},
 language={English}
-}
-
-@article{vasken,
-   author = "Hagopian, Vasken and Daly, Ian",
-   title = "Radiation damage of fibers",
-   journal = "AIP Conference Proceedings",
-   year = "1998",
-   volume = "450",
-   number = "1", 
-   pages = "53-61",
-   doi = "http://dx.doi.org/10.1063/1.56958" 
-}
-
-
-@article{ByonWagner1993263,
-title = "Radiation hardness test programs for the \{SDC\} calorimeter ",
-journal = "Radiation Physics and Chemistry ",
-volume = "41",
-number = "1–2",
-pages = "263 - 271",
-year = "1993",
-note = "",
-issn = "0969-806X",
-doi = "http://dx.doi.org/10.1016/0969-806X(93)90064-2",
-url = "http://www.sciencedirect.com/science/article/pii/0969806X93900642",
-author = "Aesook Byon-Wagner",
-keywords = "Radiation damage",
-keywords = "Scintillating tile/fiber calorimeter",
-keywords = "\{SDC\} calorimeter "
-}
-
-@article{Giokaris1993315,
-title = "Study of dose-rate effects on the radiation damage of polymer-based SCSN23, SCSN81, SCSN81+Y7, SCSN81+Y8 and 3HF scintillators ",
-journal = "Radiation Physics and Chemistry ",
-volume = "41",
-number = "1–2",
-pages = "315 - 320",
-year = "1993",
-note = "",
-issn = "0969-806X",
-doi = "http://dx.doi.org/10.1016/0969-806X(93)90069-7",
-url = "http://www.sciencedirect.com/science/article/pii/0969806X93900697",
-author = "N.D. Giokaris and M. Contreras and A. Pla-Dalmau and J. Zimmerman and K.F. Johnson",
-keywords = "Plastic Scintillators",
-keywords = "Radiation Dose",
-keywords = "Dose Rate",
-keywords = "Light Yield",
-keywords = "Attenuation Length",
-keywords = "Radiation Damage "
 }
