@@ -95,7 +95,7 @@ organic scintillator\sep liquid scintillator\sep \sep radiation hardness \sep ca
 
 \section{Introduction}
 Sampling calorimeters using plastic scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Aota1995557}
-and the CMS barrel\cite{CMSHB} and endcap\cite{HCALTDR1997} hadron calorimeters, are popular due to their low cost and ease of construction.  Plastic scintillator is available commercially from companies like St. Gobain and Eljen.  When irradiated, however, the performance of plastic scintillator and wave length shifting fibers deteriorate; light self-absorption (yellowing) increases and light output decreases.  The resulting loss of light output has been studied
+and the CMS Barrel\cite{CMSHB} and Endcap\cite{HCALTDR1997} hadron calorimeters, are popular due to their low cost and ease of construction.  Plastic scintillator is available commercially from companies like St. Gobain and Eljen.  When irradiated, however, the performance of plastic scintillator and wave length shifting fibers deteriorate; light self-absorption (yellowing) increases and light output decreases.  The resulting loss of light output for this kind of tile has been studied
 \cite{vasken}\cite{ByonWagner1993263}.
 Generally, the light output decreases exponentially with dose, with an decay constant on order of a few Mrad.  Future high energy and nuclear experiments, however, may have to operate in environments that will deliver doses of tens of Mrad.  In this paper, we present the design and optimization of a liquid scintillator tile, based on EJ-309 liquid scintillator, that can operate in thie kind of environment.
 
@@ -104,10 +104,11 @@ Generally, the light output decreases exponentially with dose, with an decay con
 
 Our tile is based on EJ-309 scintillator, from Eljen Technology, which uses naphthalene as the substrate with wavelength shifting additives.  EJ-309 has a light output that is 75\% of anthracene, a wavelength of maximum emisison of 424 nm, a refractive index of 1.57 and a flash point of $\rm{144^o}$C.  The low flash point is important for its suitability for a collider environment.
 
-The design of tile to hold the liquid needs to consider light collection efficiency, light collection uniformity, and cost.  The container should not leak and there should not be interactions between the container and its contents that degrade the light output over time or compromise the integrity
+The design of a tile to hold the liquid needs to consider light collection efficiency, light collection uniformity, and cost.  The container should not leak and there should not be interactions between the container and its contents that degrade the light output over time or compromise the integrity
 of the container.
-Figure ~\ref{fig:tiledesign} shows the mechanical construction of our prototype.  The case is made of aluminum.  Two transparent support tubes with outer diameter of 2 mm run through the liquid and can hold either wavelength shifting fiber or liquid wavelength shifter.  The support tube is sealed to the case with a viton fluoroelastomer o-ring.  The thickness of the top and bottom Aluminum plates is 0.5 mm.  The total internal volume is 88 mm x 88 mm x4 mm. The inner surface of the container
-is a lapped and polished Al6061 available for a McMaster Carr. The material comes with a plastic coating that can be 
+Figure \ref{fig:tiledesign} shows the mechanical construction of our prototype.  The case is made of aluminum.  Two transparent support tubes with outer diameter of 2 mm run through the liquid and can hold either wavelength shifting fiber or liquid wavelength shifter.  When wavelength shifting fiber was used, the end of the fiber not connected to the photodetector was coated with Al to increase the light output unless otherwize noted.
+The support tube is sealed to the case with a viton fluoroelastomer o-ring.  The thickness of the top and bottom Aluminum plates is 0.5 mm.  The total internal volume is 88 mm x 88 mm x4 mm. The inner surface of the container
+is a lapped and polished Al-6061 available from McMaster Carr. The material comes with a plastic coating that can be 
 used to maintain its mirror quality during the machining process and then removed before the welding step. 
 
 Several variations on this design were constructed.  For the default design, the thickness of the liquid is 4 mm.  A version with a 6 mm thickness was also made.  The support tubes were quartz with an inner diameter of 1.3 mm and were used with Kuraray Y-11 fiber (doping of 200 ppm), double clad.  Quartz tubes filled with liquid wave length shifter were also used.  The quartz tubes had
@@ -130,9 +131,16 @@ Mechanical design of a liquid scintillator tile.  Units are mm.
 
 
 
-\section{Test beam results}
+\section{Light yield and uniformity as measured in test beam}
 
-The light yield and uniformity of the tiles was measured in the H2 test beam facility at CERN using 120 GeV muons.
+The light yield and uniformity of the tiles was measured in the H2 test beam facility at CERN using 120 GeV muons.  The positions of the muons was measured with five wire chambers. The position obtained from the counter closest to the
+prototype was used.  We also required the signal in each wire chamber be consistent with that of a single muon and that the difference in positions in sequential chambers be consistent with in uncertainty.
+As many groups were using the same test beam, there was material upstream of our counters.  For some runs, several iron blocks were used to support experiments upstream of our counters.  Because the muons were high energy, the probability of a muon-induced shower was non-neglibile.  (This was verified later at a test beam at FNAL that had a cleaner beam line and through simulation.)  We present here the results
+from the runs and tiles with the smallest upstream material.
+
+
+The light output was measured using a Hamamatsu R7600U-200-M4 photomultiplier tube and a custom ASIC that integrates and digitizes the resulting charged, called the ``QIE''\cite{qie}.  The integrated charge is digitized every 25 ns.  Ten digitizations were recorded per muon trigger.  The sum of the signal in the ${\rm 4^{th}}$ to ${\rm 7^{th}}$ sample was used.
+
 
 \section{Light yield dependence on tile parameters and comparison with simulation}
 We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  

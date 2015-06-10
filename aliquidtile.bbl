@@ -77,6 +77,14 @@ A.~Byon-Wagner,
   {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90064-2}}.
 \newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/0969806X93900642}
 
+\bibitem{qie}
+T.~Shaw, A.~Baumbaugh, A.~Boubekeur, J.~Elias, J.~Hoff, S.~Holm, S.~Los,
+  C.~Rivetta, A.~Ronzhin, J.~Whitmore, T.~Zimmerman, R.~Yarema, Front end
+  readout electronics for the cms hadron calorimeter, in: Nuclear Science
+  Symposium Conference Record, 2002 IEEE, Vol.~1, 2002, pp. 194--197 vol.1.
+\newblock \href {http://dx.doi.org/10.1109/NSSMIC.2002.1239297}
+  {\path{doi:10.1109/NSSMIC.2002.1239297}}.
+
 \bibitem{Agostinelli2003250}
 S.~Agostinelli, et~al., Geant4—a simulation toolkit, Nuclear Instruments and
   Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
