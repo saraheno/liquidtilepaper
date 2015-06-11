@@ -183,10 +183,11 @@ Several different tests were made using irradiations with a $\rm{^{60}Co}$ sourc
 We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  GEANT4's optical package includes simulations of refraction, reflection, wave length shifting, and light attenuation.  A variety of options for the reflection are available.  We used the ``Specular Spike'' option for the Al and an absoption length of 2m for the EJ-309.  When simulating the WLS fiber, an air gap was included between the fiber cladding and the support tube, while no such gap exists for the simulation of the capillary. An index of refraction of 1.57 is ued for the EJ-309.  The index for sapphire used was 1.77.  For quartz, values between 1.46 and 1.55 were used.
 Photons are generated at random positions inside the liquid volume, with a wavelength corresponding to the emission maximum of EJ-309.  
 
-As shown in Figure ~\ref{fig:simeff}, we find the simulation reproduces the light collection nonuniformity when a reflectivity of 0.9 is used for the mirrored Al.
+As shown in Figure ~\ref{fig:simeff} left, we find the simulation reproduces the light collection nonuniformity when a reflectivity of 0.9 is used for the mirrored Al.
 
 \begin{figure}[!ht]
 \begin{center}
+\includegraphics[width=0.8\textwidth]{./figures/geant_result_uniformity.png}
 \includegraphics[width=0.8\textwidth]{./figures/geant_result_uniformity.png}
 \caption{
 Ratio of light yield to maximum light yield from simulationed tile as a function of the distance perpedicular to the support tubes. {\color{red} figure is place holder until Zishuo gives right one}
@@ -195,10 +196,14 @@ Ratio of light yield to maximum light yield from simulationed tile as a function
 \end{center}
 \end{figure}
 
-We find the best light collection comes when the support tube has the
-lowest possible index of refraction.
 
-We find that the light collection efficiency is a strong function of the reflectivity of the Al.
+We find that the light collection efficiency is a strong function of the reflectivity of the Al (Figure ~\ref{fig:simeff} right).
+
+
+We find the best light collection comes when the support tube has the
+lowest possible index of refraction.  For a 1mm diameter for the WLS,
+the light collection efficiency increase by xxx going from an index of
+1.77 to 1.46.  Presumably this difference would decrease as the reflectivity of the Al increases.
 
 \section{Conclusions}
 
