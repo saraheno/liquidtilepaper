@@ -124,7 +124,7 @@ Sapphire tubes were also tested with both liquid and plastic wavelength shifter.
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{mechanicaldesign.pdf}
+\includegraphics[width=0.8\textwidth]{./figures/mechanicaldesign.pdf}
 \caption{
 Mechanical design of a liquid scintillator tile.  Units are mm.
 }
@@ -179,8 +179,21 @@ Several different tests were made using irradiations with a $\rm{^{60}Co}$ sourc
 
 {\it no documentation at all on Sung Woo's note on this}
 
-\section{Comparison with simulation}
-We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  
+\section{Comparison with simulation, and optimization}
+We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  GEANT4's optical package includes simulations of refraction, reflection, wave length shifting, and light attenuation.  A variety of options for the reflection are available.  We used the ``Specular Spike'' option for the Al and an absoption length of 2m for the EJ-309.  When simulating the WLS fiber, an air gap was included between the fiber cladding and the support tube, while no such gap exists for the simulation of the capillary.  
+
+As shown in Figure ~\ref{simeff}, we find the simulation reproduces the light collection nonuniformity when a reflectivity of 0.9 is used for the mirrored Al.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./figures/geant_result_uniformity.png}
+\caption{
+Ratio of light yield to maximum light yield from simulationed tile as a function of the distance perpedicular to the support tubes.
+}
+\label{fig:simeff}
+\end{center}
+\end{figure}
+
 
 
 \section{Conclusions}
