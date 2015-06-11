@@ -144,14 +144,27 @@ The light output was measured using a Hamamatsu R7600U-200-M4 photomultiplier tu
 The integrated charge is digitized every 25 ns.  Ten digitizations were recorded per muon trigger.  The sum of the signal in the ${\rm 4^{th}}$ to ${\rm 7^{th}}$ sample was used.
 
 
-The average number of ps's produced per minimum ionizing particle (mip) was estimated by doing a gaussian fit to the peak centered on the pedestal.  The mean number of pe's was calculated using the fraction of events in this peak, assuming a poisson distribution.  The nominal tile produced 1.75 pe's per mip.
+The average number of ps's produced per minimum ionizing particle (mip) was estimated by doing a gaussian fit to the peak centered on the pedestal.  The mean number of pe's was calculated using the fraction of events in this peak, assuming a poisson distribution.  The nominal tile produced 1.7 pe's per mip.
 Tiles for the CMS hadron calorimeter typically produce 3 pe's per mip\cite{CMSHB}.
-The results have a systematic uncertainty related to the handling of the events with showering muons.  We evaluate this uncertainty by looking at the results after truncating the distribution at around 25 pes (2500 adc counts).  The results were stable to within 5\%, which we take as our systematic uncertainty.
+The results have a systematic uncertainty related to the handling of the events with showering muons.  We evaluate this uncertainty by looking at the results after truncating the distribution at around 25 pes (2500 adc counts).  The results were stable to within 5\%.  In addition, runs taken with varying amounts of material in front of our detector, from several radiation lengths to a {\it what was the upstream material for the best} resulted in a 15\% variation in light yield.  We therefore take a 16\% uncertainty due to upstream material.
+
+The uniformity of the light collection was also studied at the CERN test beam.
+Figure~\ref{fig:fig1} shows the fraction of events with at least one
+pe versus the impact position of the mip along the axis parallel to the support tubes (left) and perpendicular to the support tubes (right).  As expected, there is little dependence on the coordinate parallel to the support tubes.  The light yield does depend on the perpendicular distance.  The light collection efficiency is maximum at for muons near the WLS fiber and is approximately 30\% lower for muons in the center or edges of the tile.  For most hadron calorimetry applications, we verified through simulation that this degree of nonuniformity would not aversely affect jet resolutions.
+
+\begin{figure}[h]
+\centering\includegraphics[scale=0.5]{./figures/fiducial3.png}
+\centering\includegraphics[scale=0.5]{./figures/fiducial2.png}
+\caption{For the nominal liquid tile, fraction of mips with at least one pe as a function of the impact position of the mip along the axis parallel to the support tubes (left) and perpendicular to the support tubes (right).}
+\label{fig:fig1}
+\end{figure}
 
 
 
 
 \section{Light yield dependence on tile parameters}
+
+The dependence of the light yield on 
 
 \section{Radiation hardness tests}
 
@@ -162,6 +175,8 @@ We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of ou
 
 
 \section{Conclusions}
+
+We presented results for a liquid scintillating tile using wavelength shifting fiber readout.  For our nominal design, 1.7 ${\pm}$ 0.2 pe's were produced for minimum ionizing particles.  
 
 \section{Acknowledgements}
 The authors would like to thank Randy Ruchti of Notre Dame for providing the capillaries and Yasar Onel's group at the University of Iowa for help with the test beam.  We would like to thank Eric Johnston from the Quattrone Nanofabrication Facility  at the University of Pennsylvania for measuring the indices of refraction of our support tubes.
