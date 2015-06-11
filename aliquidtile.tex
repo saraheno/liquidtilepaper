@@ -94,8 +94,8 @@ organic scintillator\sep liquid scintillator\sep \sep radiation hardness \sep ca
 \linenumbers
 
 \section{Introduction}
-Sampling calorimeters using plastic scintillator tiles with wave length shifting fibers, such as the CDF plug calorimeter \cite{Aota1995557}
-and the CMS Barrel\cite{CMSHB} and Endcap\cite{HCALTDR1997} hadron calorimeters, are popular due to their low cost and ease of construction.  Plastic scintillator is available commercially from companies like St. Gobain and Eljen.  When irradiated, however, the performance of plastic scintillator and wave length shifting fibers deteriorate; light self-absorption (yellowing) increases and light output decreases.  The resulting loss of light output for this kind of tile has been studied
+Sampling calorimeters using plastic scintillator tiles with wave length shifting (WLS) fibers, such as the CDF plug calorimeter \cite{Aota1995557}
+and the CMS Barrel\cite{CMSHB} and Endcap\cite{HCALTDR1997} hadron calorimeters, are popular due to their low cost and ease of construction.  Plastic scintillator is available commercially from companies like St. Gobain and Eljen.  When irradiated, however, the performance of plastic scintillator and WLS fibers deteriorate; light self-absorption (yellowing) increases and light output decreases.  The resulting loss of light output for this kind of tile has been studied
 \cite{vasken}\cite{ByonWagner1993263}.
 Generally, the light output decreases exponentially with dose, with an decay constant on order of a few Mrad.  Future high energy and nuclear experiments, however, may have to operate in environments that will deliver doses of tens of Mrad.  In this paper, we present the design and optimization of a liquid scintillator tile, based on EJ-309 liquid scintillator, that can operate in thie kind of environment.
 
@@ -109,7 +109,7 @@ of the container.
 Figure \ref{fig:tiledesign} shows the mechanical construction of our prototype.  The case is made of aluminum.  Two transparent support tubes with outer diameter of 2 mm run through the liquid and can hold either wavelength shifting fiber or liquid wavelength shifter.  When wavelength shifting fiber was used, the end of the fiber not connected to the photodetector was coated with Al to increase the light output unless otherwize noted.
 The support tube is sealed to the case with a viton fluoroelastomer o-ring.  The thickness of the top and bottom Aluminum plates is 0.5 mm.  The total internal volume is 88 mm x 88 mm x4 mm. The inner surface of the container
 is a lapped and polished Al-6061 available from McMaster Carr. The material comes with a plastic coating that can be 
-used to maintain its mirror quality during the machining process and then removed before the welding step. 
+used to maintain its mirror quality during the machining process and then removed before the welding step.  The liquid was transfered into the containing in an inert atmosphere.
 
 Several variations on this design were constructed.  For the default design, the thickness of the liquid is 4 mm.  A version with a 6 mm thickness was also made.  The support tubes were quartz with an inner diameter of 1.3 mm and were used with Kuraray Y-11 fiber (doping of 200 ppm), double clad.  Quartz tubes filled with liquid wave length shifter were also used.  The quartz tubes had
 an outer diameter of xx and an inner diameter of yy.  The liquid wave length shifter was a prototype material from Eljen, and is not yet a commercial item.
@@ -129,25 +129,37 @@ Mechanical design of a liquid scintillator tile.  Units are mm.
 \end{center}
 \end{figure}
 
-
+In what follows, the results shown are for the mirrored tile with 4 mm thickness, quartz support tubes, and a 0.9 mm diameter Y-11 WLS fiber unless otherwize stated.
 
 \section{Light yield and uniformity as measured in test beam}
 
-The light yield and uniformity of the tiles was measured in the H2 test beam facility at CERN using 120 GeV muons.  The positions of the muons was measured with five wire chambers. The position obtained from the counter closest to the
+The light yield and uniformity of the tiles was measured in the H2 test beam facility at CERN using 120 GeV muons.  The trigger required coincidence of two out of four plastic scintillator hodoscopes. The effective beam cross sectional area, after trigger requirements was 14x14 ${\rm cm^2}$ The positions of the muons was measured with five wire chambers. The position obtained from the counter closest to the
 prototype was used.  We also required the signal in each wire chamber be consistent with that of a single muon and that the difference in positions in sequential chambers be consistent with in uncertainty.
 As many groups were using the same test beam, there was material upstream of our counters.  For some runs, several iron blocks were used to support experiments upstream of our counters.  Because the muons were high energy, the probability of a muon-induced shower was non-neglibile.  (This was verified later at a test beam at FNAL that had a cleaner beam line and through simulation.)  We present here the results
 from the runs and tiles with the smallest upstream material.
 
 
-The light output was measured using a Hamamatsu R7600U-200-M4 photomultiplier tube and a custom ASIC that integrates and digitizes the resulting charged, called the ``QIE''\cite{qie}.  The integrated charge is digitized every 25 ns.  Ten digitizations were recorded per muon trigger.  The sum of the signal in the ${\rm 4^{th}}$ to ${\rm 7^{th}}$ sample was used.
+The wavelength shifting fiber was connected to a clear fiber using a connector designed at FNAL.  The clear fiber was lead away from the beam line.
+The light output was measured using a Hamamatsu R7600U-200-M4 photomultiplier tube and a custom ASIC that integrates and digitizes the resulting charged, called the ``QIE''\cite{qie}.  The photomultiplier has a peak quantum efficiency of 40\% at a wavelength of 400 nm and produces a clear single photoelectron (pe) peak.
+The integrated charge is digitized every 25 ns.  Ten digitizations were recorded per muon trigger.  The sum of the signal in the ${\rm 4^{th}}$ to ${\rm 7^{th}}$ sample was used.
 
 
-\section{Light yield dependence on tile parameters and comparison with simulation}
-We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  
+The average number of ps's produced per minimum ionizing particle (mip) was estimated by doing a gaussian fit to the peak centered on the pedestal.  The mean number of pe's was calculated using the fraction of events in this peak, assuming a poisson distribution.  The nominal tile produced 1.75 pe's per mip.
+Tiles for the CMS hadron calorimeter typically produce 3 pe's per mip\cite{CMSHB}.
+The results have a systematic uncertainty related to the handling of the events with showering muons.  We evaluate this uncertainty by looking at the results after truncating the distribution at around 25 pes (2500 adc counts).  The results were stable to within 5\%, which we take as our systematic uncertainty.
+
+
+
+
+\section{Light yield dependence on tile parameters}
 
 \section{Radiation hardness tests}
 
 Several different tests were made using irradiations with a $\rm{^{60}Co}$ source lcoated at the University of Maryland.  Performance of the tile under irradiation in a proton-proton collision environment will be the subject of a future paper.
+
+\section{Comparison with simulation}
+We use the GEANT4~\cite{Agostinelli2003250} package to simulate the optics of our tile.  
+
 
 \section{Conclusions}
 
