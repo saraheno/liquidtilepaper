@@ -168,7 +168,7 @@ plastic wavelength shifter.
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=0.8\textwidth]{./figures/mechanicaldesign.pdf}
+\includegraphics[width=0.95\textwidth]{./figures/mechanicaldesign.pdf}
 \caption{Mechanical design of a liquid scintillator tile. Units are
   [mm].}
 \label{fig:tiledesign}
@@ -263,25 +263,73 @@ the mirroring yielded $1.98\pm 0.03$~pe, a reduction of a factor of
 $2.61\pm 0.05$~pe, an increase over the 4~mm non-mirrored tile of a
 factor of 1.32.
 
-The light yield was also studied using the capillary instead of WLS
-fiber {\color{red} no documentation at all in Sung Woo'd note on this}
+The light yield was also studied using a capillary quartz tube, filled
+with liquid wavelength shifter, instead of a plastic WLS. The
+capillary quartz tube had an outer diameter of 2~mm, and an inner
+diameter of 0.6~mm.  The quartz support tube, which contained the
+plastic WLS fibers, and created an air gap between the tube itself and
+the fiber, was entirely replaced by the quartz capillary. In this
+configuration, there is no air gap between the liquid scintillator and
+the liquid wavelength shifter.  The two materials have a very similar
+index of refraction (1.57), while the quartz capillary, with a lower
+index of refraction, allows light to be captured within the liquid WLS
+material. Figure~\ref{fig:y11_vs_cap} shows a comparison between the
+plastic and liquid WLS configuration. The light collection efficiency
+drops from $92\%$ to $45\%$, and the average light yield halves as
+well. However, we shall note that the setup with a quartz capillary is
+significant step towards a radiation-tolerant calorimetry cell. The
+light output of the capillary setup has not been optimized as a
+function of the index of refraction of the quartz capillary, thus
+possibly leaving some space for improving the performance of the
+capillary setup.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./figures/list_RO_FIBER_all_norm.png}
+\caption{Comparison between the light output of a liquid scintillator
+  tile equipped with a plastic WLS fiber, and a capillary filled with
+  liquid WLS. The two distributions are normalized to have the same
+  number of events in the pedestal.}
+\label{fig:y11_vs_cap}
+\end{center}
+\end{figure}
+
 
 \section{Radiation hardness tests}
 
 Several different tests were made using irradiations with a
-$\rm{^{60}Co}$ source lcoated at the University of Maryland.
+$\rm{^{60}Co}$ source coated at the University of Maryland.
 Performance of the tile under irradiation in a proton-proton collision
 environment will be the subject of a future paper.
 
+The most striking test is the light-output and efficiency comparison
+between two samples of liquid used in the same tile, shown in
+Figure~\ref{fig:ej309_irradiated}. A dark-glass vial containing 125~ml
+of liquid scintillator had been irradiated with $\gamma$-rays up to a
+dose of 50~Mrad, at a dose rate of 1~Mrad/hr.
 
-{\color{red} no documentation at all on Sung Woo's note on this}
+Both the efficiency and light output from the two measurements are
+consistent within the uncertainty, indicating that EJ-309 is
+radiation-tolerant to $\gamma$-ray irradiations.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png}
+\caption{Comparison between the light output of a liquid scintillator
+  tile filled with unirradiated (black) and irradiated (red) liquid
+  scintillator. The two distributions are normalized to have the same
+  number of events in the pedestal.}
+\label{fig:ej309_irradiated}
+\end{center}
+\end{figure}
+
 
 \section{Comparison with simulation, and optimization}
 We use the GEANT4~\cite{Agostinelli2003250} package to simulate the
 optics of our tile. GEANT4's optical package includes simulations of
 refraction, reflection, wave length shifting, and light attenuation.
 A variety of options for the reflection are available. We used the
-``Specular Spike'' option for the Al and an absoption length of 2~m for
+``Specular Spike'' option for the Al and an absorption length of 2~m for
 the EJ-309. When simulating the WLS fiber, an air gap was included
 between the fiber cladding and the support tube, while no such gap
 exists for the simulation of the capillary. An index of refraction of
