@@ -1,0 +1,57 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Aota1995557}
+S.~Aota~{\it et al.}, A scintillating tile/fiber system for the cdf plug
+  upgrade em calorimeter, Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
+  352~(3) (1995) 557 -- 568.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0168-9002(95)90005-5}
+  {\path{doi:http://dx.doi.org/10.1016/0168-9002(95)90005-5}}.
+
+\bibitem{CMSHB}
+S.~Abdullin~{\it et al.}, Design, performance, and calibration of cms
+  hadron-barrel calorimeter wedges, The European Physical Journal C 55~(1)
+  (2008) 159--171.
+\newblock \href {http://dx.doi.org/10.1140/epjc/s10052-008-0573-y}
+  {\path{doi:10.1140/epjc/s10052-008-0573-y}}.
+
+\bibitem{HCALTDR1997}
+{The CMS hadron calorimeter project: Technical Design Report}, Technical Design
+  Report CMS, CERN, Geneva, 1997.
+
+\bibitem{vasken}
+V.~Hagopian, I.~Daly, Radiation damage of fibers, AIP Conference Proceedings
+  450~(1) (1998) 53--61.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1063/1.56958}
+  {\path{doi:http://dx.doi.org/10.1063/1.56958}}.
+
+\bibitem{ByonWagner1993263}
+A.~Byon-Wagner, Radiation hardness test programs for the \{SDC\} calorimeter,
+  Radiation Physics and Chemistry 41~(1–2) (1993) 263 -- 271.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0969-806X(93)90064-2}
+  {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90064-2}}.
+
+\bibitem{qie}
+T.~Shaw, A.~Baumbaugh, A.~Boubekeur, J.~Elias, J.~Hoff, S.~Holm, S.~Los,
+  C.~Rivetta, A.~Ronzhin, J.~Whitmore, T.~Zimmerman, R.~Yarema, Front end
+  readout electronics for the cms hadron calorimeter, in: Nuclear Science
+  Symposium Conference Record, 2002 IEEE, Vol.~1, 2002, pp. 194--197 vol.1.
+\newblock \href {http://dx.doi.org/10.1109/NSSMIC.2002.1239297}
+  {\path{doi:10.1109/NSSMIC.2002.1239297}}.
+
+\bibitem{Agostinelli2003250}
+S.~Agostinelli, et~al., Geant4—a simulation toolkit, Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment 506~(3) (2003) 250 -- 303.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0168-9002(03)01368-8}
+  {\path{doi:http://dx.doi.org/10.1016/S0168-9002(03)01368-8}}.
+
+\end{thebibliography}
