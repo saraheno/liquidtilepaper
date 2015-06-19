@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUN 2015 09:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUN 2015 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,17 +424,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
 Package rerunfilecheck Info: File `aliquidtile.out' has not changed.
-(rerunfilecheck)             Checksum: AFB9742B2F0B925B24F22D02221ABB2D;490.
+(rerunfilecheck)             Checksum: 631669125B2D5062D03CF87DF4822615;489.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
  ) 
 Here is how much of TeX's memory you used:
  6037 strings out of 493089
  88761 string characters out of 6134842
- 177382 words of memory out of 5000000
+ 177383 words of memory out of 5000000
  9409 multiletter control sequences out of 15000+600000
  8442 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,30p,493b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,7n,30p,494b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -450,7 +450,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on aliquidtile.pdf (13 pages, 603544 bytes).
+Output written on aliquidtile.pdf (13 pages, 604001 bytes).
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)
  199 compressed objects within 2 object streams
