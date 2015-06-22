@@ -135,10 +135,10 @@ between the container and its contents that degrade the light output
 over time or compromise the integrity of the
 container. Figure~\ref{fig:tiledesign} shows the mechanical
 construction of our prototype. The case is made of aluminum. Two
-transparent quartz support tubes
-run through the
-liquid and can hold either a WLS fiber or liquid
-wavelength shifter.
+transparent quartz support tubes run through the liquid.
+The index of refraction was measured at the Quattrone
+Nanofabrication Facility at the University of Pennsylvania to be
+{\color{red} need jeff's number}.
 When a WLS fiber was
 used, the end of the fiber not connected to the photodetector was
 coated with Al to increase the light output unless otherwise
@@ -158,9 +158,6 @@ thickness was also made. The default
 support tubes, from Atlantic International, were quartz with an inner
 diameter of 1.3\,mm and were used with Kuraray Y-11 fiber (doping of
 200~ppm), double-clad.
-The index of refraction was measured at the Quattrone
-Nanofabrication Facility at the University of Pennsylvania to be
-{\color{red} need jeff's number}.
 As an alternative, two types of
 Quartz tubes filled with liquid wavelength
 shifter (capillaries) were also used.  
