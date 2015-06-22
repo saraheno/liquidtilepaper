@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
@@ -37,6 +37,26 @@ A.~Byon-Wagner, Radiation hardness test programs for the \{SDC\} calorimeter,
 \newblock \href
   {http://dx.doi.org/http://dx.doi.org/10.1016/0969-806X(93)90064-2}
   {\path{doi:http://dx.doi.org/10.1016/0969-806X(93)90064-2}}.
+
+\bibitem{zornliquid}
+C.~Zorn, S.~Majewski, R.~Wojcik, C.~Hurlbut, W.~Moser, Preliminary study of
+  radiation damage in liquid scintillators, Nuclear Science, IEEE Transactions
+  on 37~(2) (1990) 487--491.
+\newblock \href {http://dx.doi.org/10.1109/23.106666}
+  {\path{doi:10.1109/23.106666}}.
+
+\bibitem{Klein1967399}
+J.~Klein, J.~Gresset, F.~Heisel, G.~Laustriat, Effets des rayonnements-γ sur
+  les caracteristiques des scintillateurs organiques, The International Journal
+  of Applied Radiation and Isotopes 18~(6) (1967) 399 -- 406.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0020-708X(67)90143-3}
+  {\path{doi:http://dx.doi.org/10.1016/0020-708X(67)90143-3}}.
+
+\bibitem{berlman}
+I.~Berlman, The effect of massive $\rm{Co^{60}}$ doses on the light output of a
+  scintillator solution, Radiological Physics Division Semiannula Report for
+  July through December 1957.
 
 \bibitem{qie}
 T.~Shaw, A.~Baumbaugh, A.~Boubekeur, J.~Elias, J.~Hoff, S.~Holm, S.~Los,
