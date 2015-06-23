@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 JUN 2015 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2015 02:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,76 +326,76 @@ Package pdftex.def Info: ./figures/mechanicaldesign.pdf used on input line 185.
 
 (pdftex.def)             Requested size: 327.74895pt x 253.26859pt.
  [3] [4 <./figures/mechanicaldesign.pdf, page is rotated 90 degrees>]
-<./figures/fiducial3.png, id=104, 327.624pt x 224.5188pt>
+<./figures/fiducial3.png, id=103, 327.624pt x 224.5188pt>
 File: ./figures/fiducial3.png Graphic file (type png)
 
 <use ./figures/fiducial3.png>
-Package pdftex.def Info: ./figures/fiducial3.png used on input line 254.
+Package pdftex.def Info: ./figures/fiducial3.png used on input line 259.
 (pdftex.def)             Requested size: 163.81158pt x 112.25911pt.
 
-<./figures/fiducial2.png, id=106, 327.624pt x 225.0006pt>
+<./figures/fiducial2.png, id=105, 327.624pt x 225.0006pt>
 File: ./figures/fiducial2.png Graphic file (type png)
 
 <use ./figures/fiducial2.png>
-Package pdftex.def Info: ./figures/fiducial2.png used on input line 255.
+Package pdftex.def Info: ./figures/fiducial2.png used on input line 260.
 (pdftex.def)             Requested size: 163.81158pt x 112.50002pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] <./figures/list_NEW_PROTOTYPES_all.png, id=114, 698.61pt x 474.77374pt>
+[5] <./figures/list_NEW_PROTOTYPES_all.png, id=113, 698.61pt x 474.77374pt>
 File: ./figures/list_NEW_PROTOTYPES_all.png Graphic file (type png)
 
 <use ./figures/list_NEW_PROTOTYPES_all.png>
 Package pdftex.def Info: ./figures/list_NEW_PROTOTYPES_all.png used on input li
-ne 286.
+ne 291.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [6 <./figures/fiducial3.png> <./figures/fiducial2.png>]
-<./figures/list_RO_FIBER_all_norm.png, id=125, 698.61pt x 474.77374pt>
+<./figures/list_RO_FIBER_all_norm.png, id=124, 698.61pt x 474.77374pt>
 File: ./figures/list_RO_FIBER_all_norm.png Graphic file (type png)
 
 <use ./figures/list_RO_FIBER_all_norm.png>
 Package pdftex.def Info: ./figures/list_RO_FIBER_all_norm.png used on input lin
-e 324.
+e 329.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [7 <./figures/list_NEW_PROTOTYPES_all.png>]
-<./figures/list_Fiber_Thickness_all_1.png, id=133, 698.61pt x 474.77374pt>
+<./figures/list_Fiber_Thickness_all_1.png, id=132, 698.61pt x 474.77374pt>
 File: ./figures/list_Fiber_Thickness_all_1.png Graphic file (type png)
 
 <use ./figures/list_Fiber_Thickness_all_1.png>
 Package pdftex.def Info: ./figures/list_Fiber_Thickness_all_1.png used on input
- line 346.
+ line 351.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [8 <./figures/list_RO_FIBER_all_norm.png>]
-<./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png, id=141, 698.61pt x 
+<./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png, id=140, 698.61pt x 
 474.77374pt>
 File: ./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png Graphic file (t
 ype png)
  <use ./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png>
 Package pdftex.def Info: ./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.
-png used on input line 373.
+png used on input line 378.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
 
-Overfull \hbox (6.40793pt too wide) in paragraph at lines 385--397
+Overfull \hbox (6.40793pt too wide) in paragraph at lines 390--402
 []\OT1/cmr/m/n/10 We use the GEANT4 [[]] pack-age to sim-u-late the op-tics of 
 our tile. GEANT4's
  []
 
 [9 <./figures/list_Fiber_Thickness_all_1.png>]
-<./figures/geant_result_uniformity.png, id=149, 641.20404pt x 397.485pt>
+<./figures/geant_result_uniformity.png, id=148, 641.20404pt x 397.485pt>
 File: ./figures/geant_result_uniformity.png Graphic file (type png)
 
 <use ./figures/geant_result_uniformity.png>
 Package pdftex.def Info: ./figures/geant_result_uniformity.png used on input li
-ne 404.
+ne 409.
 (pdftex.def)             Requested size: 276.00105pt x 171.09717pt.
 
-<./figures/geant_result_reflectivity.png, id=150, 722.7pt x 429.10312pt>
+<./figures/geant_result_reflectivity.png, id=149, 722.7pt x 429.10312pt>
 File: ./figures/geant_result_reflectivity.png Graphic file (type png)
 
 <use ./figures/geant_result_reflectivity.png>
 Package pdftex.def Info: ./figures/geant_result_reflectivity.png used on input 
-line 405.
+line 410.
 (pdftex.def)             Requested size: 276.00105pt x 163.87277pt.
  [10 <./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png>] [11 <./figure
 s/geant_result_uniformity.png> <./figures/geant_result_reflectivity.png>] (./al
@@ -423,15 +423,15 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
  (./aliquidtile.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
 Package rerunfilecheck Info: File `aliquidtile.out' has not changed.
 (rerunfilecheck)             Checksum: 631669125B2D5062D03CF87DF4822615;489.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 454.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
  ) 
 Here is how much of TeX's memory you used:
  6044 strings out of 493089
@@ -456,10 +456,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on aliquidtile.pdf (13 pages, 607919 bytes).
+Output written on aliquidtile.pdf (13 pages, 608039 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
+ 246 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
  48 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
