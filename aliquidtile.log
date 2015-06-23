@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2015 02:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2015 06:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -382,24 +382,24 @@ our tile. GEANT4's
  []
 
 [9 <./figures/list_Fiber_Thickness_all_1.png>]
-<./figures/geant_result_uniformity.png, id=148, 641.20404pt x 397.485pt>
-File: ./figures/geant_result_uniformity.png Graphic file (type png)
+<./figures/geant_uniformity_plot.pdf, id=148, 569.12625pt x 387.4475pt>
+File: ./figures/geant_uniformity_plot.pdf Graphic file (type pdf)
 
-<use ./figures/geant_result_uniformity.png>
-Package pdftex.def Info: ./figures/geant_result_uniformity.png used on input li
-ne 409.
-(pdftex.def)             Requested size: 276.00105pt x 171.09717pt.
+<use ./figures/geant_uniformity_plot.pdf>
+Package pdftex.def Info: ./figures/geant_uniformity_plot.pdf used on input line
+ 409.
+(pdftex.def)             Requested size: 276.00105pt x 187.89998pt.
 
-<./figures/geant_result_reflectivity.png, id=149, 722.7pt x 429.10312pt>
-File: ./figures/geant_result_reflectivity.png Graphic file (type png)
+<./figures/geant_reflectivity_plot.pdf, id=149, 569.12625pt x 387.4475pt>
+File: ./figures/geant_reflectivity_plot.pdf Graphic file (type pdf)
 
-<use ./figures/geant_result_reflectivity.png>
-Package pdftex.def Info: ./figures/geant_result_reflectivity.png used on input 
-line 410.
-(pdftex.def)             Requested size: 276.00105pt x 163.87277pt.
+<use ./figures/geant_reflectivity_plot.pdf>
+Package pdftex.def Info: ./figures/geant_reflectivity_plot.pdf used on input li
+ne 410.
+(pdftex.def)             Requested size: 276.00105pt x 187.89998pt.
  [10 <./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png>] [11 <./figure
-s/geant_result_uniformity.png> <./figures/geant_result_reflectivity.png>] (./al
-iquidtile.bbl
+s/geant_uniformity_plot.pdf, page is rotated 90 degrees> <./figures/geant_refle
+ctivity_plot.pdf, page is rotated 90 degrees>] (./aliquidtile.bbl
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
@@ -423,20 +423,20 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (./aliquidtile.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `aliquidtile.out' has not changed.
 (rerunfilecheck)             Checksum: 631669125B2D5062D03CF87DF4822615;489.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 459.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
  6044 strings out of 493089
- 88933 string characters out of 6134842
- 178969 words of memory out of 5000000
+ 88913 string characters out of 6134842
+ 178922 words of memory out of 5000000
  9417 multiletter control sequences out of 15000+600000
  8442 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -456,10 +456,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on aliquidtile.pdf (13 pages, 608039 bytes).
+Output written on aliquidtile.pdf (13 pages, 539827 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 332 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
  48 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
