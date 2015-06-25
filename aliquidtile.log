@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUN 2015 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUN 2015 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,7 +322,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 File: ./figures/mechanicaldesign.pdf Graphic file (type pdf)
 
 <use ./figures/mechanicaldesign.pdf>
-Package pdftex.def Info: ./figures/mechanicaldesign.pdf used on input line 185.
+Package pdftex.def Info: ./figures/mechanicaldesign.pdf used on input line 187.
 
 (pdftex.def)             Requested size: 327.74895pt x 253.26859pt.
  [3] [4 <./figures/mechanicaldesign.pdf, page is rotated 90 degrees>]
@@ -330,14 +330,14 @@ Package pdftex.def Info: ./figures/mechanicaldesign.pdf used on input line 185.
 File: ./figures/fiducial3.png Graphic file (type png)
 
 <use ./figures/fiducial3.png>
-Package pdftex.def Info: ./figures/fiducial3.png used on input line 259.
+Package pdftex.def Info: ./figures/fiducial3.png used on input line 261.
 (pdftex.def)             Requested size: 163.81158pt x 112.25911pt.
 
 <./figures/fiducial2.png, id=107, 327.624pt x 225.0006pt>
 File: ./figures/fiducial2.png Graphic file (type png)
 
 <use ./figures/fiducial2.png>
-Package pdftex.def Info: ./figures/fiducial2.png used on input line 260.
+Package pdftex.def Info: ./figures/fiducial2.png used on input line 262.
 (pdftex.def)             Requested size: 163.81158pt x 112.50002pt.
 
 
@@ -348,7 +348,7 @@ File: ./figures/list_NEW_PROTOTYPES_all.png Graphic file (type png)
 
 <use ./figures/list_NEW_PROTOTYPES_all.png>
 Package pdftex.def Info: ./figures/list_NEW_PROTOTYPES_all.png used on input li
-ne 291.
+ne 293.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [6 <./figures/fiducial3.png> <./figures/fiducial2.png>]
 <./figures/list_RO_FIBER_all_norm.png, id=126, 698.61pt x 474.77374pt>
@@ -356,7 +356,7 @@ File: ./figures/list_RO_FIBER_all_norm.png Graphic file (type png)
 
 <use ./figures/list_RO_FIBER_all_norm.png>
 Package pdftex.def Info: ./figures/list_RO_FIBER_all_norm.png used on input lin
-e 329.
+e 331.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [7 <./figures/list_NEW_PROTOTYPES_all.png>]
 <./figures/list_Fiber_Thickness_all_1.png, id=134, 698.61pt x 474.77374pt>
@@ -364,7 +364,7 @@ File: ./figures/list_Fiber_Thickness_all_1.png Graphic file (type png)
 
 <use ./figures/list_Fiber_Thickness_all_1.png>
 Package pdftex.def Info: ./figures/list_Fiber_Thickness_all_1.png used on input
- line 351.
+ line 353.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [8 <./figures/list_RO_FIBER_all_norm.png>]
 <./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png, id=142, 698.61pt x 
@@ -373,10 +373,10 @@ File: ./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png Graphic file (t
 ype png)
  <use ./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png>
 Package pdftex.def Info: ./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.
-png used on input line 378.
+png used on input line 380.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
 
-Overfull \hbox (6.40793pt too wide) in paragraph at lines 390--402
+Overfull \hbox (6.40793pt too wide) in paragraph at lines 392--404
 []\OT1/cmr/m/n/10 We use the GEANT4 [[]] pack-age to sim-u-late the op-tics of 
 our tile. GEANT4's
  []
@@ -387,7 +387,7 @@ File: ./figures/geant_uniformity_plot.pdf Graphic file (type pdf)
 
 <use ./figures/geant_uniformity_plot.pdf>
 Package pdftex.def Info: ./figures/geant_uniformity_plot.pdf used on input line
- 409.
+ 411.
 (pdftex.def)             Requested size: 276.00105pt x 187.89998pt.
 
 <./figures/geant_reflectivity_plot.pdf, id=151, 569.12625pt x 387.4475pt>
@@ -395,7 +395,7 @@ File: ./figures/geant_reflectivity_plot.pdf Graphic file (type pdf)
 
 <use ./figures/geant_reflectivity_plot.pdf>
 Package pdftex.def Info: ./figures/geant_reflectivity_plot.pdf used on input li
-ne 410.
+ne 412.
 (pdftex.def)             Requested size: 276.00105pt x 187.89998pt.
  [10 <./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png>] [11 <./figure
 s/geant_uniformity_plot.pdf, page is rotated 90 degrees> <./figures/geant_refle
@@ -423,15 +423,15 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 461.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 461.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
  (./aliquidtile.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 461.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 461.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 463.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 463.
 Package rerunfilecheck Info: File `aliquidtile.out' has not changed.
 (rerunfilecheck)             Checksum: 631669125B2D5062D03CF87DF4822615;489.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 461.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 463.
  ) 
 Here is how much of TeX's memory you used:
  6048 strings out of 493089
@@ -456,7 +456,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on aliquidtile.pdf (13 pages, 540314 bytes).
+Output written on aliquidtile.pdf (13 pages, 540301 bytes).
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams
