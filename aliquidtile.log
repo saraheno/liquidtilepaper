@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2015 06:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUN 2015 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -318,7 +318,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<./figures/mechanicaldesign.pdf, id=83, 794.97pt x 614.295pt>
+<./figures/mechanicaldesign.pdf, id=85, 794.97pt x 614.295pt>
 File: ./figures/mechanicaldesign.pdf Graphic file (type pdf)
 
 <use ./figures/mechanicaldesign.pdf>
@@ -326,14 +326,14 @@ Package pdftex.def Info: ./figures/mechanicaldesign.pdf used on input line 185.
 
 (pdftex.def)             Requested size: 327.74895pt x 253.26859pt.
  [3] [4 <./figures/mechanicaldesign.pdf, page is rotated 90 degrees>]
-<./figures/fiducial3.png, id=103, 327.624pt x 224.5188pt>
+<./figures/fiducial3.png, id=105, 327.624pt x 224.5188pt>
 File: ./figures/fiducial3.png Graphic file (type png)
 
 <use ./figures/fiducial3.png>
 Package pdftex.def Info: ./figures/fiducial3.png used on input line 259.
 (pdftex.def)             Requested size: 163.81158pt x 112.25911pt.
 
-<./figures/fiducial2.png, id=105, 327.624pt x 225.0006pt>
+<./figures/fiducial2.png, id=107, 327.624pt x 225.0006pt>
 File: ./figures/fiducial2.png Graphic file (type png)
 
 <use ./figures/fiducial2.png>
@@ -343,7 +343,7 @@ Package pdftex.def Info: ./figures/fiducial2.png used on input line 260.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] <./figures/list_NEW_PROTOTYPES_all.png, id=113, 698.61pt x 474.77374pt>
+[5] <./figures/list_NEW_PROTOTYPES_all.png, id=115, 698.61pt x 474.77374pt>
 File: ./figures/list_NEW_PROTOTYPES_all.png Graphic file (type png)
 
 <use ./figures/list_NEW_PROTOTYPES_all.png>
@@ -351,7 +351,7 @@ Package pdftex.def Info: ./figures/list_NEW_PROTOTYPES_all.png used on input li
 ne 291.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [6 <./figures/fiducial3.png> <./figures/fiducial2.png>]
-<./figures/list_RO_FIBER_all_norm.png, id=124, 698.61pt x 474.77374pt>
+<./figures/list_RO_FIBER_all_norm.png, id=126, 698.61pt x 474.77374pt>
 File: ./figures/list_RO_FIBER_all_norm.png Graphic file (type png)
 
 <use ./figures/list_RO_FIBER_all_norm.png>
@@ -359,7 +359,7 @@ Package pdftex.def Info: ./figures/list_RO_FIBER_all_norm.png used on input lin
 e 329.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [7 <./figures/list_NEW_PROTOTYPES_all.png>]
-<./figures/list_Fiber_Thickness_all_1.png, id=132, 698.61pt x 474.77374pt>
+<./figures/list_Fiber_Thickness_all_1.png, id=134, 698.61pt x 474.77374pt>
 File: ./figures/list_Fiber_Thickness_all_1.png Graphic file (type png)
 
 <use ./figures/list_Fiber_Thickness_all_1.png>
@@ -367,7 +367,7 @@ Package pdftex.def Info: ./figures/list_Fiber_Thickness_all_1.png used on input
  line 351.
 (pdftex.def)             Requested size: 276.00105pt x 187.57341pt.
  [8 <./figures/list_RO_FIBER_all_norm.png>]
-<./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png, id=140, 698.61pt x 
+<./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png, id=142, 698.61pt x 
 474.77374pt>
 File: ./figures/RD_R7600_1_0_DBF_ALM_GRS_TH450_100814_all_1.png Graphic file (t
 ype png)
@@ -382,7 +382,7 @@ our tile. GEANT4's
  []
 
 [9 <./figures/list_Fiber_Thickness_all_1.png>]
-<./figures/geant_uniformity_plot.pdf, id=148, 569.12625pt x 387.4475pt>
+<./figures/geant_uniformity_plot.pdf, id=150, 569.12625pt x 387.4475pt>
 File: ./figures/geant_uniformity_plot.pdf Graphic file (type pdf)
 
 <use ./figures/geant_uniformity_plot.pdf>
@@ -390,7 +390,7 @@ Package pdftex.def Info: ./figures/geant_uniformity_plot.pdf used on input line
  409.
 (pdftex.def)             Requested size: 276.00105pt x 187.89998pt.
 
-<./figures/geant_reflectivity_plot.pdf, id=149, 569.12625pt x 387.4475pt>
+<./figures/geant_reflectivity_plot.pdf, id=151, 569.12625pt x 387.4475pt>
 File: ./figures/geant_reflectivity_plot.pdf Graphic file (type pdf)
 
 <use ./figures/geant_reflectivity_plot.pdf>
@@ -434,10 +434,10 @@ Package rerunfilecheck Info: File `aliquidtile.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 6044 strings out of 493089
- 88913 string characters out of 6134842
- 178922 words of memory out of 5000000
- 9417 multiletter control sequences out of 15000+600000
+ 6048 strings out of 493089
+ 88986 string characters out of 6134842
+ 178938 words of memory out of 5000000
+ 9420 multiletter control sequences out of 15000+600000
  8442 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,7n,30p,660b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -456,10 +456,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on aliquidtile.pdf (13 pages, 539827 bytes).
+Output written on aliquidtile.pdf (13 pages, 540246 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

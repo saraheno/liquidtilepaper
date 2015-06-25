@@ -58,6 +58,14 @@ I.~Berlman, The effect of massive $\rm{Co^{60}}$ doses on the light output of a
   scintillator solution, Radiological Physics Division Semiannula Report for
   July through December 1957.
 
+\bibitem{liquidrandy}
+J.~Marchant, B.~Baumbaugh, L.~Ciastko, B.~Dolezal, A.~Heering, C.~Hurlbut,
+  M.~McKenna, T.~Pearson, R.~Ruchti, A.~Williams, Liquid-based scintillators
+  for particle physics, in: Nuclear Science Symposium Conference Record
+  (NSS/MIC), 2010 IEEE, 2010, pp. 10--13.
+\newblock \href {http://dx.doi.org/10.1109/NSSMIC.2010.5873708}
+  {\path{doi:10.1109/NSSMIC.2010.5873708}}.
+
 \bibitem{qie}
 T.~Shaw, A.~Baumbaugh, A.~Boubekeur, J.~Elias, J.~Hoff, S.~Holm, S.~Los,
   C.~Rivetta, A.~Ronzhin, J.~Whitmore, T.~Zimmerman, R.~Yarema, Front end
