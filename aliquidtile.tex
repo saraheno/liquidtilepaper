@@ -42,7 +42,7 @@
 
 \begin{frontmatter}
 
-\title{Liquid scintillator tiles for high radiation environments }
+\title{Liquid scintillator tiles }
 
 
 %% or include affiliations in footnotes:
@@ -85,10 +85,15 @@ Room 4315, Department of Physics, Natural Science Building (E6-2), KAIST,
 Future experiments in high energy and nuclear physics may require
 large, inexpensive calorimeters that can continue to
 operate after receiving doses of 50~Mrad
-or more. We present the results of a study of a scintillator tile
-based on EJ-309 liquid scintillator using cosmic rays, test beam, and
-${\rm ^{60}Co}$ irradiations that shows little degradation of light output
-under irradiation.
+or more. The light output of liquid scintillators suffers little
+degradation under irradiation.  However, many challenges exist
+before  liquids can be used in sampling calorimetry,
+especially regarding developing
+a packaging that has sufficient uniformity of light collection and
+suitable mechanical properties.
+We present the results of a study of a scintillator tile
+based on EJ-309 liquid scintillator using cosmic rays and test beam
+that on the light collection uniformity and timing properties.
 \end{abstract}
 
 \begin{keyword}
@@ -113,14 +118,18 @@ light output decreases. The resulting loss of light output for this
 kind of tile has been studied using irradiations
 from electron linacs and ${\rm ^{60}Co}$ sources~\cite{vasken,ByonWagner1993263}.
 Generally, the light output decreases exponentially with dose, with an
-decay constant on the order of a few~ Mrad. Future high energy and nuclear
+decay constant on the order of 5 Mrad. Future high energy and nuclear
 experiments, however, may have to operate in environments that will
-deliver doses of tens of Mrad.
+deliver doses of many tens of Mrad.
 Previous studies of liquid scintillator have shown little decrease
 of light output with dose ~\cite{zornliquid,Klein1967399,berlman}.
+However, there are challenges regarding the design of a package
+with sufficient light output and uniformity, as well as 
+adequate mechanical properties.
 In this paper, we present the design
-and optimization of a liquid scintillator tile
-that can operate in this kind of environment.
+and optimization of a liquid scintillator tile for uniformity
+of light output and discuss some remaining challenges regarding
+other mechanical properties that remain.
 An earlier liquid tile design is described in~\cite{liquidrandy}.
 
 \section{Tile design}
@@ -129,7 +138,8 @@ Our tile is based on EJ-309 scintillator, from Eljen Technology, which
 uses naphthalene as the substrate with wavelength shifting additives.
 EJ-309 has a light output that is 75\% of anthracene, a wavelength of
 maximum emission of 424~nm, a refractive index of 1.57, and a flash
-point of $\rm{144^o}$\,C. The high flash point is important for its
+point of $\rm{144^o}$\,C. It is classified as a Class IIIB combustible liquid.
+The high flash point is important for its
 suitability for a collider environment.
 
 The design of a tile to hold the liquid needs to consider light
@@ -160,7 +170,7 @@ contamination with Oxygen decreases the light output.
 Several variations on this design were constructed. For the default
 design, the thickness of the liquid is 4\,mm. A version with a 6\,mm
 thickness was also made. The default
-support tubes, from Atlantic International, were quartz with an inner
+support tubes (``quartz1'', from Atlantic International, were quartz with an inner
 diameter of 1.3\,mm and were used with Kuraray Y-11 fiber (doping of
 200~ppm), double-clad.
 The index of refraction was measured at the Quattrone
@@ -169,17 +179,19 @@ Nanofabrication Facility at the University of Pennsylvania to be
 As an alternative, two types of
 Quartz tubes filled with liquid wavelength
 shifter (capillaries) were also used.  
-One set, of ordinary quartz, had an outer diameter of 2\,mm,
+One set (``quartz2''), of ordinary quartz, had an outer diameter of 2\,mm,
 an inner diameter of 1\,mm, and a measured index of refraction of 1.548.
-Another used special radiation-resistant quartz and had an outer diameter of 1\,mm and an
+Another (``quartz3'') used special radiation-resistant quartz and had an outer diameter of 1\,mm and an
 inner diameter of 0.4\,mm.  Its index was not measured.
+These dimension are not optimal in any sense for this design, but
+funding was not available to allow the construction of a more
+suitable liquid capillary.
 The liquid wavelength shifter was a prototype
 material from Eljen, and is not yet a commercial item. The liquid
 wavelength shifter has an emission maximum from between 481 and 492\,nm
 and a decay time between 2 and 8~ns. The solvent was the same as that
-used for EJ-309. Sapphire tubes, with an index of 1.653,
-were also tested with both liquid and
-plastic wavelength shifter.
+used for EJ-309. 
+
 
 
 \begin{figure}[!ht]
@@ -305,13 +317,13 @@ for the three different configurations.
 
 The light yield was also studied using a capillary, filled
 with liquid WLS, instead of a quartz tube containing plastic WLS, since
-plastic WLS is susceptible to radiation damage.
+plastic WLS is susceptible to radiation damage (the ``quartz2'' configuration).
 The capture efficiency of the WLS for the two different configurations
 depends crucially on the index of the surrounding media.  For the WLS fiber,
 there is an air gap with an index of 1.  For the capillary, the liquid WLS
-is instead bordered by quartz, with an index of {\color{red} jeff's number}.
+is instead bordered by quartz, with an index of 1.6.
 The plastic and liquid WLS have very similar
-indices of refraction (1.57).  In both cases, the shifted light propagates
+indices of refraction.  In both cases, the shifted light propagates
 in the WLS, but the capture efficiency is higher for the lower index air.
 Figure~\ref{fig:y11_vs_cap} shows the charge collected (in arbitrary units)
 from cosmic muons for the two different configurations.  The fraction of
@@ -340,12 +352,12 @@ could be found.
 
 
 Finally, we tested the performance of the same tile, 4\,mm-thick, with a
-mirrored aluminum surface, as a function of the thickness of the
+mirrored aluminum surface, and the quartz2 configuation,
+as a function of the thickness of the
 readout plastic WLS fiber. We tested three plastic fibers, with a
-thickness of 0.5\,mm, 0.9\,mm, and 1\,mm. We measured that the higher the
+thickness of 0.5\,mm, 0.9\,mm, and 1\,mm. The higher the
 fiber thickness, the higher the efficiency and light output, as shown
 in Figure~\ref{fig:fiber_thickness_comp}.
-{\Large \color{red} This would be much more useful as a plot of pes versus fiber thickness.  If we can not get this, I say remove it.}
 
 \begin{figure}[!ht]
 \begin{center}
@@ -384,7 +396,9 @@ radiation-tolerant to $\gamma$-ray irradiations.
 \end{center}
 \end{figure}
 
-{\Large\color{red} I want to try irradiating an entire tile with the rad hard 1mm tubes from Randy and put the results here as well.}
+We also irradiated a tile with the ``quartz3'' readout configuration
+at an irradiation facility at Goddard Space Flight Center, to a dose of 30 Mrad.
+Some bulging of the container indicated that outgassing of the EJ-309 may pose challenges for containers.  We intend to report measurements of the outgassing in a future paper.
 
 \section{Comparison with simulation, and optimization}
 We use the GEANT4~\cite{Agostinelli2003250} package to simulate the
@@ -433,7 +447,7 @@ air gap, the efficiency decreases by a factor of 1.42 going from an index of 1.7
 \section{Conclusions}
 
 We presented results for a liquid scintillating tile using WLS fiber readout. For our nominal design, $1.7\pm 0.2$\,pe's
-were produced for minimum ionizing particles.
+were produced for minimum ionizing particles.  While the light collection efficiency was adequate for calorimetry, and while the light output of EJ-309 showed little signs of degraduation, outgassing needs to be measured and the results consided for future tile designs.
 
 \section{Acknowledgments}
 The authors would like to thank Randy Ruchti of Notre Dame for
@@ -451,6 +465,7 @@ Facilities group for assistance
 with the irradiations.
  We would like to thank the University of Maryland
 FabLab, especially {\color{red} who helped}, for help with fiber sputtering.
+We would also like to thank the staff at the irradiation facility at Goddard Space Flight center.
 This work was supported in part by U.S. Department of Energy
 Grant DESC0010072.
 
