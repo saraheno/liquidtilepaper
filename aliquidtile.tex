@@ -94,7 +94,8 @@ as well as
 suitable mechanical properties.
 We present the results of a study of a scintillator tile
 based on EJ-309 liquid scintillator using cosmic rays and test beam
-on the light collection efficiency and uniformity.
+on the light collection efficiency and uniformity. and some preliminary results
+on radiation hardness.
 \end{abstract}
 
 \begin{keyword}
@@ -115,11 +116,11 @@ low cost and ease of construction. Plastic scintillator is available
 commercially from companies such as St. Gobain and Eljen Technology. When
 irradiated, however, the performance of plastic scintillator and WLS
 fibers deteriorates; light self-absorption (yellowing) increases and
-light output decreases. The resulting loss of light output for this
-kind of tile has been studied using irradiations
+light output decreases. The resulting loss of light output 
+has been studied using irradiations
 from electron linacs and ${\rm ^{60}Co}$ sources~\cite{vasken,ByonWagner1993263}.
 Generally, the light output decreases exponentially with dose, with an
-decay constant on the order of 5 Mrad. Future high energy and nuclear
+decay constant on the order of ten Mrad. Future high energy and nuclear
 experiments, however, may have to operate in environments that will
 deliver doses of many tens of Mrad.
 Previous studies of liquid scintillator have shown little decrease
@@ -131,7 +132,7 @@ In this paper, we present the design
 and optimization of a liquid scintillator tile for uniformity
 of light output and discuss some remaining challenges regarding
 other mechanical properties that remain.
-An earlier liquid tile design is described in~\cite{liquidrandy}.
+An earlier liquid tile design by another group is described in~\cite{liquidrandy}.
 
 \section{Tile design}
 \label{sec:design}
@@ -171,7 +172,7 @@ contamination with Oxygen decreases the light output.
 Several variations on this design were constructed. For the default
 design, the thickness of the liquid is 4\,mm. A version with a 6\,mm
 thickness was also made. The default
-support tubes (``quartz1'', from Atlantic International, were quartz with an inner
+support tubes (``quartz1''), from Atlantic International, were quartz with an inner
 diameter of 1.3\,mm and were used with Kuraray Y-11 fiber (doping of
 200~ppm), double-clad.
 The index of refraction was measured at the Quattrone
@@ -186,7 +187,7 @@ Another (``quartz3'') used special radiation-resistant quartz and had an outer d
 inner diameter of 0.4\,mm.  Its index was not measured.
 These dimension are not optimal in any sense for this design, but
 funding was not available to allow the construction of a more
-suitable liquid capillary.
+suitable liquid capillary with radiation hard quartz.
 The liquid wavelength shifter was a prototype
 material from Eljen, and is not yet a commercial item. The liquid
 wavelength shifter has an emission maximum from between 481 and 492\,nm
@@ -197,7 +198,7 @@ used for EJ-309.
 
 \begin{figure}[!ht]
 \begin{center}
-\includegraphics[width=0.95\textwidth]{./figures/mechanicaldesign.pdf}
+\includegraphics[width=0.95\textwidth]{./figures/mechanicaldesign.png}
 \caption{Mechanical design of a liquid scintillator tile. Units are
   [mm].}
 \label{fig:tiledesign}
@@ -205,7 +206,7 @@ used for EJ-309.
 \end{figure}
 
 In what follows, the results shown are for the mirrored tile with 4\,mm
-thickness, ordinary quartz support tubes, and a 0.9\,mm diameter Y-11 WLS fiber,
+thicknes, the quartz1 support tubes, and a 0.9\,mm diameter Y-11 WLS fiber,
 unless otherwise stated.
 
 \section{Light yield and uniformity as measured in test beam}
@@ -374,8 +375,6 @@ in Figure~\ref{fig:fiber_thickness_comp}.
 
 Several different tests were made using irradiations with a
 $\rm{^{60}Co}$ source at the University of Maryland.
-Performance of the tile under irradiation in a proton-proton collision
-environment will be the subject of a future paper.
 
 A dark-glass vial containing 125\,ml
 of liquid scintillator was irradiated with $\gamma$-rays to a
@@ -383,7 +382,7 @@ dose of 50\,Mrad, at a dose rate of 1\,Mrad/hr.
 Figure~\ref{fig:ej309_irradiated} compares the integrated charge (arbitrary units)
 from the same tile when filled with unirradiated liquid and irradiated liquid.
 The efficiency and light output from the two measurements are
-consistent within the uncertainty, indicating that EJ-309 is
+consistent within the uncertainty, indicating that light output of the EJ-309 is
 radiation-tolerant to $\gamma$-ray irradiations.
 
 \begin{figure}[!ht]
@@ -399,7 +398,8 @@ radiation-tolerant to $\gamma$-ray irradiations.
 
 We also irradiated a tile with the ``quartz3'' readout configuration
 at an irradiation facility at Goddard Space Flight Center, to a dose of 30 Mrad.
-Some bulging of the container indicated that outgassing of the EJ-309 may pose challenges for containers.  We intend to report measurements of the outgassing in a future paper.
+Some bulging of the container indicated that outgassing of the EJ-309 
+may pose challenges for containers.  We intend to report measurements of the outgassing in a future paper.
 
 \section{Comparison with simulation, and optimization}
 We use the GEANT4~\cite{Agostinelli2003250} package to simulate the
@@ -448,7 +448,8 @@ air gap, the efficiency decreases by a factor of 1.42 going from an index of 1.7
 \section{Conclusions}
 
 We presented results for a liquid scintillating tile using WLS fiber readout. For our nominal design, $1.7\pm 0.2$\,pe's
-were produced for minimum ionizing particles.  While the light collection efficiency was adequate for calorimetry, and while the light output of EJ-309 showed little signs of degraduation, outgassing needs to be measured and the results consided for future tile designs.
+were produced for minimum ionizing particles with a 20\% nonuniformity.
+While the light collection efficiency was adequate for calorimetry, and while the light output of EJ-309 showed little signs of degraduation, outgassing needs to be measured and the results consided for future tile designs.
 
 \section{Acknowledgments}
 The authors would like to thank Randy Ruchti of Notre Dame for
